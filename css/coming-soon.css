@@ -75,7 +75,7 @@ video, image {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color:#642c2ccc;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -131,13 +131,13 @@ video, image {
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #434141;
+  border-color: #000000;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 
 .input {
@@ -166,7 +166,7 @@ video, image {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: #642c2ccc;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -203,6 +203,6 @@ video, image {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #000000;
   }
 }
