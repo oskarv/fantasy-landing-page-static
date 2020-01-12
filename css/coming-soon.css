@@ -16,12 +16,7 @@ body {
   font-weight: 300;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather';
   font-weight: 700;
 }
@@ -81,7 +76,7 @@ video, image {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color:#642c2ccc;
+  background-color: #642c2ccc;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -163,13 +158,13 @@ video, image {
   text-align: center;
 }
 
-.social-icons ul > li {
+.social-icons ul>li {
   margin-left: 1rem;
   margin-right: 1rem;
   display: inline-block;
 }
 
-.social-icons ul > li > a {
+.social-icons ul>li>a {
   display: block;
   color: white;
   background-color: #642c2ccc;
@@ -192,23 +187,23 @@ video, image {
     margin-top: 0;
     width: auto;
   }
-  .social-icons ul > li {
+  .social-icons ul>li {
     display: block;
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 2rem;
   }
-  .social-icons ul > li:last-child {
+  .social-icons ul>li:last-child {
     margin-bottom: 0;
   }
-  .social-icons ul > li > a {
+  .social-icons ul>li>a {
     transition: all 0.2s ease-in-out;
     font-size: 2rem;
     line-height: 4rem;
     height: 4rem;
     width: 4rem;
   }
-  .social-icons ul > li > a:hover {
+  .social-icons ul>li>a:hover {
     background-color: #000000;
   }
 }
