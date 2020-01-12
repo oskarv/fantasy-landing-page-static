@@ -8,7 +8,7 @@ const validateEmail = (email) => {
   return regex.test(String(email).toLowerCase());
 };
 
-subButton.onclick = () => { 
+subButton.onclick = () => {
   const email = $('.form-control').val();
   const isEmailValid = validateEmail(email);
 

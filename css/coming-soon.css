@@ -14,6 +14,16 @@ body {
   position: relative;
   font-family: 'Source Sans Pro';
   font-weight: 300;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url("../img/bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: fixed;
+  transition: background 0.5s linear;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -33,9 +43,14 @@ video, image {
   z-index: 0;
 }
 
+body video {
+  display: none;
+}
+
 @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background-image: url("../img/bg-mobile-fallback.jpg");
     background-position: cover;
   }
   body video {
@@ -49,7 +64,6 @@ video, image {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #000000;
   opacity: 0.7;
   z-index: 1;
 }
@@ -76,7 +90,7 @@ video, image {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: #642c2ccc;
+  background-color: #497933cc;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -167,7 +181,7 @@ video, image {
 .social-icons ul>li>a {
   display: block;
   color: white;
-  background-color: #642c2ccc;
+  background-color: #497933cc;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
