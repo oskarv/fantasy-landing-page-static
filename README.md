@@ -1,2 +1,3 @@
 # fantasy-landing-page-static  
-Landing page for fantaziraj.com  
+
+fantaziraj.com static web page
