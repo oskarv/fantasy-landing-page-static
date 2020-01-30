@@ -9,21 +9,19 @@ html {
 }
 
 body {
-  height: 100%;
-  min-height: 35rem;
-  position: relative;
-  font-family: 'Source Sans Pro';
-  font-weight: 300;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative;
   background-image: url("../img/bg-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-attachment: fixed;
   transition: background 0.5s linear;
+  font-family: 'Source Sans Pro';
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
+  position: relative;
+  min-height: 35rem;
+  font-weight: 300;
+  height: 100%;
+  width: 100%;
+  padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
