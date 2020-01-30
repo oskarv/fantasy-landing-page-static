@@ -10,6 +10,8 @@ html {
 
 body {
   background-image: url("../img/bg-1.jpg");
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
   transition: background 0.5s linear;
   font-family: 'Source Sans Pro';
   background-repeat: no-repeat;
