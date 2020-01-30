@@ -2,6 +2,12 @@ $(document).ready(function () {
   var img_array = [1, 2, 3, 4],
     index = 0,
     interval = 5000;
+
+    $('#preload').css('backgroundImage', 'url(./img/bg-1.jpg)');
+    $('#preload').css('backgroundImage', 'url(./img/bg-2.jpg)');
+    $('#preload').css('backgroundImage', 'url(./img/bg-3.jpg)');
+    $('#preload').css('backgroundImage', 'url(./img/bg-4.jpg)');
+
   (function changeBg() {
     index = (index + 1) % img_array.length;
 
