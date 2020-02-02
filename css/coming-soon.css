@@ -90,7 +90,8 @@ body video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: #497933cc;
+  /* background-color: #497933cc; */
+  background-color: #3b5998bf;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -181,7 +182,8 @@ body video {
 .social-icons ul>li>a {
   display: block;
   color: white;
-  background-color: #497933cc;
+  /* background-color: #497933cc; */
+  background-color: #3b5998bf;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
