@@ -26,6 +26,8 @@
 </head>
 
 <body>
+  <img src="./img/bg-2.jpg" style="display:none;" alt="" />
+
   <div class="overlay"></div>
   <div class="masthead">
     <div class="masthead-bg"></div>
@@ -87,6 +89,14 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    var index = 1;
+    setInterval(() => {
+      index == 2 ? index = 1 : index = 2;
+      document.body.style.backgroundImage = 'url("./img/bg-' + index + '.jpg")';
+      }, 5000);
+  </script>
 
 </body>
 
