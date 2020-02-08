@@ -26,6 +26,7 @@
 </head>
 
 <body>
+  <img src="./img/bg-1.jpg" style="display:none;" alt="" />
   <img src="./img/bg-2.jpg" style="display:none;" alt="" />
 
   <div class="overlay"></div>
@@ -91,11 +92,14 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <script>
-    var index = 1;
-    setInterval(() => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (!isMobile) {
+      let index = 1;
+      setInterval(() => {
       index == 2 ? index = 1 : index = 2;
       document.body.style.backgroundImage = 'url("./img/bg-' + index + '.jpg")';
       }, 5000);
+    }
   </script>
 
 </body>
