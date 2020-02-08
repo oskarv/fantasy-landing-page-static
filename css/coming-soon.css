@@ -74,6 +74,10 @@ body video {
   margin-top: 15px;
 }
 
+#mc-embedded-subscribe {
+  background-color: #1d728e;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;
@@ -90,8 +94,7 @@ body video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  /* background-color: #497933cc; */
-  background-color: #9f3838cc;
+  background-color: #000000cc;
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -182,8 +185,7 @@ body video {
 .social-icons ul>li>a {
   display: block;
   color: white;
-  /* background-color: #497933cc; */
-  background-color: #9f3838cc;
+  background-color: #000000cc;
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -220,6 +222,6 @@ body video {
     width: 4rem;
   }
   .social-icons ul>li>a:hover {
-    background-color: #000000;
+    background-color: #1d728e;
   }
 }
